@@ -19,7 +19,7 @@ After installation, you can use MeteoLuxe by running any of the following comman
 
 For example:
 ```bash
-ml
+weather
 ```
 
 ## Arguments
@@ -29,7 +29,7 @@ MeteoLuxe supports the following command-line arguments:
 
 Example:
 ```bash
-ml -s Paris -t YOUR_API_KEY
+weather -s Paris -t YOUR_API_KEY
 ```
 
 ## Scripts
