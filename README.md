@@ -19,7 +19,7 @@ After installation, you can use MeteoLuxe by running any of the following comman
 
 For example:
 ```bash
-ml --state NewYork --token YOUR_API_KEY
+ml
 ```
 
 ## Arguments
