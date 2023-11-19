@@ -5,8 +5,10 @@ MeteoLuxe is a weather CLI tool that provides real-time weather information. Sta
 
 ## Installation
 To install MeteoLuxe globally, run the following command:
-```
-npm install -g meteoluxe
+```bash
+git clone git@github.com:v-zdorovcev/meteoluxe.git
+cd meteoluxe
+npm i -g .
 ```
 
 ## Usage
@@ -16,7 +18,7 @@ After installation, you can use MeteoLuxe by running any of the following comman
 - `weather`
 
 For example:
-```
+```bash
 ml --state NewYork --token YOUR_API_KEY
 ```
 
@@ -26,7 +28,7 @@ MeteoLuxe supports the following command-line arguments:
 - `--token`, `-t`, `-T`: Set your API key. You can obtain a key by registering at [Weather API](https://www.weatherapi.com/my/).
 
 Example:
-```
+```bash
 ml -s Paris -t YOUR_API_KEY
 ```
 
